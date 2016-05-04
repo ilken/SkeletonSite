@@ -12,6 +12,7 @@
     "gulp": "^3.9.1",
     "gulp-compass": "^2.1.0",
     "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.0.0-alpha",
     "gulp-uglify": "^1.5.3",
     "gulp-webserver": "^0.9.1"
   }
