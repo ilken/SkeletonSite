@@ -6,88 +6,139 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Skeleton Site</title>
 
-
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/prism.css" rel="stylesheet">
 </head>
 <body>
-<div class="page-container">
-  
-	<!-- top navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-       <div class="container">
-    	<div class="navbar-header">
-           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-           <a class="navbar-brand" href="#">Skeleton Site</a>
+	<nav class="navbar navbar-inverse navbar-fixed-top top-nav-collapse" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Skeleton Site</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="hidden">
+						<a class="nav-item" href="#"></a>
+					</li>
+					<li class="">
+						<a class="nav-item" href="#section1">Gulpfile</a>
+					</li>
+					<li class="">
+						<a class="nav-item" href="#section2">Bower</a>
+					</li>
+					<li class="">
+						<a class="nav-item" href="#section3">Git</a>
+					</li>
+				</ul>
+			</div>
     	</div>
-       </div>
-    </div>
-      
-    <div class="container">
-      <div class="row row-offcanvas row-offcanvas-left">
-        
-        <!-- sidebar -->
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div data-spy="affix" data-offset-top="45" data-offset-bottom="90">
-            <ul class="nav" id="sidebar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#section1">Section 1</a></li>
-              <li><a href="#section2">Section 2</a></li>
-              <li><a href="#section3">Section 3</a></li>     
-              <li><a href="#section4">Section 4</a></li>     
-            </ul>
-           </div>
-        </div>
-  	
-        <!-- main area -->
-        <div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
-          <h1 id="section1">Why Bootstrap?</h1>
-          <p>Twitter Bootstrap is a front-end toolkit to rapidly build web applications. It is a framework that uses some of the latest browser techniques to provide you with stylish typography, navigation, buttons, tables, etc. One of the primary changes in Bootstrap 3 is an emphasis on Mobile-First responsive design. The goal is to elevate the mobile experience to a first-class citizen of the design process, because several billion mobile users is quite a large market to tap into. So, sites built with the current Bootstrap version target mobile devices and scale for larger screens depending on screen size. </p>
-    
-          <p>Vestibulum porttitor massa eget pellentesque eleifend. Suspendisse tempor, nisi eu placerat auctor, 
-            est erat tempus neque, pellentesque venenatis eros lorem vel quam. Nulla luctus malesuada porttitor. 
-            Fusce risus mi, luctus scelerisque hendrerit feugiat, volutpat gravida nisi. Quisque facilisis risus 
-            in lacus sagittis malesuada. Suspendisse non purus diam. Nunc commodo felis sit amet tortor 
-            adipiscing varius. Fusce commodo nulla quis fermentum hendrerit. Donec vulputate, tellus sed 
-            venenatis sodales, purus nibh ullamcorper quam, sit amet tristique justo velit molestie lorem.</p>
-    
-          <h1 id="section2">Section 2</h1>
-          <p>Fusce sollicitudin lacus lacinia mi tincidunt ullamcorper. Aenean velit ipsum, vestibulum nec 
-            tincidunt eu, lobortis vitae erat. Nullam ultricies fringilla ultricies. Sed euismod nibh quis 
-            tincidunt dapibus. Nulla quam velit, porta sit amet felis eu, auctor fringilla elit. Donec 
-            convallis tincidunt nibh, quis pellentesque sapien condimentum a. Phasellus purus dui, rhoncus 
-            id suscipit id, ornare et sem. Duis aliquet posuere arcu a ornare. Pellentesque consequat libero 
-            id massa accumsan volutpat. Fusce a hendrerit lacus. Nam elementum ac eros eu porttitor. 
-            Phasellus enim mi, auctor sit amet luctus a, commodo fermentum arcu. In volutpat scelerisque 
-            quam, nec lacinia libero.</p>
-    
-          <h1 id="section3">Section 3</h1>
-          <p>Aliquam a lacinia orci, iaculis porttitor neque. Nullam cursus dolor tempus mauris posuere, eu 
-            scelerisque sem tincidunt. Praesent blandit sapien at sem pulvinar, vel egestas orci varius. 
-            Praesent vitae purus at ante aliquet luctus vel quis nibh. Mauris id nulla vitae est lacinia 
-            rhoncus a vel justo. Donec iaculis quis sapien vel molestie. Aliquam sed elementum orci. 
-            Vestibulum tristique tempor risus et malesuada. Sed eget ligula sed quam placerat dapibus. 
-            Integer accumsan ac massa at tempus.</p>
-          
-          <h1 id="section4">Section 4</h1>
-          <p>Aliquam a lacinia orci, iaculis porttitor neque. Nullam cursus dolor tempus mauris posuere, eu 
-            scelerisque sem tincidunt. Praesent blandit sapien at sem pulvinar, vel egestas orci varius. 
-            Praesent vitae purus at ante aliquet luctus vel quis nibh. Mauris id nulla vitae est lacinia 
-            rhoncus a vel justo. Donec iaculis quis sapien vel molestie. Aliquam sed elementum orci. 
-            Vestibulum tristique tempor risus et malesuada. Sed eget ligula sed quam placerat dapibus. 
-            Integer accumsan ac massa at tempus.</p>
-          
-          
-        </div>
-    </div>
-  </div>
-</div>
+	</nav>
+	<div class="container">
+		<section id="section1" class="active">
+			<h1>Gulpfile</h1>
+			<h2>Imports</h2>
+			<pre class="language-markup">
+				<code class="language-javascript">
+var gulp = require('gulp');
+var webserver = require('gulp-webserver');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');</code>
+			</pre>
+
+			<h2>Webserver</h2>
+			<pre class="language-markup">
+				<code class="language-javascript">
+gulp.task('webserver', function() {
+  gulp.src('./')
+    .pipe(webserver({
+        livereload: {
+            enable: true,
+            filter: function(fileName) {
+                if (fileName.match(/.map$/)) {
+                    return false;
+                } else {
+                    return true;
+                }
+            }
+        },
+        open: true,
+        fallback: 'index.html',
+        port: 9000
+    }));
+});</code>
+			</pre>
+
+			<h2>SASS</h2>
+			<pre class="language-markup">
+				<code class="language-javascript">
+gulp.task('sass', function () {
+    return gulp.src('./sass/**/*.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass({outputStyle: 'compressed'})
+          .on('error', sass.logError))
+        .pipe(sourcemaps.write('./maps'))
+        .pipe(gulp.dest('./css'));
+});
+ 
+gulp.task('sass:watch', function () {
+    gulp.watch('./sass/**/*.scss', ['sass']);
+});</code>
+			</pre>
+			<h2>Default Tasks</h2>
+			<pre class="language-markup">
+				<code class="language-javascript">
+gulp.task('default', ['webserver', 'sass']);</code>
+			</pre>
+		</section>
+
+		<section id="section2" class="">
+			<h1>Bower Components</h1>
+			<pre class="language-markup">
+				<code class="language-json">
+{
+  "name": "Skeleton Site",
+  "description": "Skeleton site with Gulp Server, Bower, Sass & Node packages",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}</code>
+			</pre>
+		</section>
+
+		<section id="section3" class="">
+			<h1>Git Ignore</h1>
+			<pre class="language-markup">
+				<code class="language-json">
+node_modules/*
+bower_components/*
+css/*.css
+css/maps/*.css.map</code>
+			</pre>
+		</section>
+	</div>
+
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/prism.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

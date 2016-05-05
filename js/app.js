@@ -1,5 +1,8 @@
 $(document).ready(function(){  
-	$('[data-toggle=offcanvas]').click(function() {
-		$('.row-offcanvas').toggleClass('active');
+	$('.nav-item').click(function(e){
+		$('section').removeClass('active');
+
+		var section = $(e.target).attr('href');
+		$(section).addClass('active');
 	});
 });
