@@ -1,4 +1,6 @@
 node_modules/*
 bower_components/*
-css/*.css
-css/maps/*.css.map
+dist/css/*.css
+dist/css/maps/*.css.map
+dist/js/*.js
+dist/js/maps/*.js.map

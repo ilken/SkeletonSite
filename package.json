@@ -1,12 +1,12 @@
 {
-  "name": "reels",
-  "version": "1.0.0",
+  "name": "SkeletonApp",
+  "version": "1.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ILKEN",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -15,5 +15,10 @@
     "gulp-sourcemaps": "^2.0.0-alpha",
     "gulp-uglify": "^1.5.3",
     "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.3"
   }
 }
